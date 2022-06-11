@@ -5,9 +5,9 @@ const FILE_TYPE = {
   html: "text/html",
   css: "text/css",
   jpeg: "image/jpeg",
+  jpg: "image/jpeg",
   png: "image/png",
-  txt: "text/plain",
-  default: "File type undefined",
+  default: "text/plain",
 }
 
 function getContentType(filename) {
